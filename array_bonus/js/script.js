@@ -23,16 +23,16 @@ console.log(arrayTwo);
 // console.log(arrayOne);
 // console.log(arrayTwo);
 
-let shorter;
-let bigger;
+// let shorter;
+// let bigger;
 
-if (arrayOne.length > arrayTwo.length) {
-    shorter = arrayTwo;
-    bigger = arrayOne;
-} else {
-    bigger = arrayOne;
-    shorter = arrayTwo;
-}
+// if (arrayOne.length > arrayTwo.length) {
+//     shorter = arrayTwo;
+//     bigger = arrayOne;
+// } else {
+//     bigger = arrayOne;
+//     shorter = arrayTwo;
+// }
 
 // const difference = bigger.length - shorter.length;
 
@@ -42,8 +42,10 @@ if (arrayOne.length > arrayTwo.length) {
 // }
 // console.log(shorter, bigger);
 
-while (bigger.length > shorter.length) {
+const shorter = arrayOne.length < arrayTwo.length ? arrayOne : arrayTwo;
+
+while (arrayOne.length !== arrayTwo.length) {
     const randomNum = Math.floor(Math.random() * 100) + 1;
     shorter.push(randomNum);
 }
-console.log(shorter, bigger);
+console.log(shorter);

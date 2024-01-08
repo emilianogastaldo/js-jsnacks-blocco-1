@@ -2,6 +2,8 @@ console.log('js ok')
 
 const arrayOne = [23, 3, 4, 56, 65, 65, 34, 5, 65, 752, 786, 863, 45];
 const arrayTwo = [23, 3, 786, 863, 45];
+// const arrayTwo = [23, 3, 4, 56, 65, 65, 34, 5, 65, 752, 786, 863, 45];
+// const arrayOne = [23, 3, 786, 863, 45];
 
 console.log(arrayOne);
 console.log(arrayTwo);
